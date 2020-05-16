@@ -75,7 +75,7 @@ class TicTacToe
   def won?
   WIN_COMBINATIONS.detect do |winning_code|
     binding.pry
-    if @board[winning_code[0]]
+    if "X" == @board[winning_code[0]] &&
       winning_code.to_a
       else 
       false
