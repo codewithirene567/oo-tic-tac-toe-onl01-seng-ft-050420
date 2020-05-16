@@ -74,7 +74,7 @@ class TicTacToe
   
   def won?
   WIN_COMBINATIONS.detect do |winning_code|
-    if (@board|winning_code|)
+    if 
       winning_code
       else 
       false
