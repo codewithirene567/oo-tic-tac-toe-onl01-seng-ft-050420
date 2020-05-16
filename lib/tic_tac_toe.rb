@@ -72,7 +72,7 @@ class TicTacToe
     turn_count % 2 == 0 ? "X" : "O"
   end
   
-  def won?
+  * def won?
   WIN_COMBINATIONS.detect do |winning_code|
     if WIN_COMBINATIONS
       winning_code.to_a
@@ -95,13 +95,14 @@ class TicTacToe
    end
    end
     
-    def over?
+   * def over?
       if won? || full? || draw?
+        true
       else
     end
     end 
     
-    def winner
+   * def winner
       WIN_COMBINATIONS.detect do 
         puts "X has won the game"
         puts "O has won the game"
