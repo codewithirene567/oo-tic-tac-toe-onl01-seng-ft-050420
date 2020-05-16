@@ -98,6 +98,12 @@ class TicTacToe
     def over?
       won? || full? || draw?
     end
+    
+    def winner
+      if 
+        puts "X has won the game"
+        puts "O has won the game"
+    end
 
    
   
