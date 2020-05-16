@@ -81,6 +81,12 @@ class TicTacToe
   end
   end
   end
+  
+  def full?
+    if display_board.full
+  else
+    false
+  end
     
    
   
