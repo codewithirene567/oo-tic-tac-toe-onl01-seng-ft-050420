@@ -74,8 +74,8 @@ class TicTacToe
   
   def won?
   WIN_COMBINATIONS.detect do |winning_code|
-    if 
-      winning_code
+    if WIN_COMBINATIONS
+      winning_code.to_a
       else 
       false
   end
