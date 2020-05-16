@@ -89,11 +89,6 @@ class TicTacToe
    end
     
     
-def full?
-	@board.all? do |index|
-		 index == "X" || index == "O"
-		end
-end
 
    
   
