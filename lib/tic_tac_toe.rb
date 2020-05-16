@@ -88,7 +88,9 @@ class TicTacToe
      end
    end
     
-    
+    def over?
+      won? || full?
+    end
 
    
   
