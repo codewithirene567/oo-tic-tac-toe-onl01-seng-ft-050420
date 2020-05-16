@@ -87,9 +87,15 @@ class TicTacToe
      index == "X" || index =="O"
      end
    end
+   
+   def draw?
+     if full? && !won?
+     elsif won?
+     else !won? || !full?
+   end
     
     def over?
-      won? || full?
+      won? || full? || draw?
     end
 
    
