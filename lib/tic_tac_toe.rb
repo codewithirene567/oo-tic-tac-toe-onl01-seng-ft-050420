@@ -83,12 +83,18 @@ class TicTacToe
   end
   
   def full?
-    if display_board.full
-  else
-    false
-  end
+   @board.all? do |index|
+     index == "X" || index =="O"
+     end
+   end
     
     
+def full?
+	@board.all? do |index|
+		 index == "X" || index == "O"
+		end
+end
+
    
   
     #Calling the gets method captures the last thing the user typed into the terminal. #Whenever your program makes a call to gets, it will freeze and wait for user input
