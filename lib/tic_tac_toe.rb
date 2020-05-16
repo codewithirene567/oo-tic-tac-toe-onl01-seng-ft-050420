@@ -99,6 +99,7 @@ class TicTacToe
       if won? || full? || draw?
       else
     end
+    end 
     
     def winner
       WIN_COMBINATIONS.detect do 
