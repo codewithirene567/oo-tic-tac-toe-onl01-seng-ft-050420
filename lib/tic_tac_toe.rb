@@ -100,7 +100,7 @@ class TicTacToe
     end 
     
    def winner
-     binding.pry
+     
       if won?
         
      end   
