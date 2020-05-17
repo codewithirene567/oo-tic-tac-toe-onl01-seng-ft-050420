@@ -106,7 +106,7 @@ class TicTacToe
         puts "O has won the game"
         
     end
-    end
+    
 
    
   
