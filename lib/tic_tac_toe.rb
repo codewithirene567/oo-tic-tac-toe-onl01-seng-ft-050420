@@ -104,6 +104,7 @@ class TicTacToe
       if won?
       binding.pry  
      end   
+   end
   
     
 
