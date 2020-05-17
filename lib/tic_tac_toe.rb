@@ -113,7 +113,7 @@ class TicTacToe
    if won?
      winner
    else draw?
-     puts "The game is a draw"
+     prints "Cat's Game!"
    end
    end
    
