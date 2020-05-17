@@ -104,8 +104,8 @@ class TicTacToe
       won?
         puts "X has won the game"
         puts "O has won the game"
-        
-    end
+     end   
+  
     
 
    
