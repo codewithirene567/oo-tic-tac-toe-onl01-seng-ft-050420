@@ -100,9 +100,11 @@ class TicTacToe
     end 
     
    def winner
+     binding.pry
       won?
         puts "X has won the game"
         puts "O has won the game"
+        
     end
     end
 
