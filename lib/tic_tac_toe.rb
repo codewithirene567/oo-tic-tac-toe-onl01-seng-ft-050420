@@ -111,7 +111,10 @@ class TicTacToe
    end
    
    if won?
-     puts ""
+     winner
+   else draw?
+     puts "The game is a draw"
+   end
    
    var = 7
   
