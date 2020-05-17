@@ -116,11 +116,7 @@ class TicTacToe
      puts "Cat's Game!"
    end
    end
-   
-
-   
-  
-    #Calling the gets method captures the last thing the user typed into the terminal. #Whenever your program makes a call to gets, it will freeze and wait for user input
+   #Calling the gets method captures the last thing the user typed into the terminal. #Whenever your program makes a call to gets, it will freeze and wait for user input
     
 end
   
