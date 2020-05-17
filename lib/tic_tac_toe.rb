@@ -76,7 +76,7 @@ class TicTacToe
   WIN_COMBINATIONS.detect do |winning_code|
     if "X" == @board[winning_code[0]] && "X" == @board[winning_code[1]] && "X" == @board[winning_code[2]]
       return winning_code
-    elsif "O" == @board[winning_code[0]] && "O" == @board[winning_code[1]] && "0" == @board[winning_code[2]]
+    elsif "O" == @board[winning_code[0]] && "O" == @board[winning_code[1]] && "O" == @board[winning_code[2]]
       return winning_code
   end
   end
