@@ -115,7 +115,7 @@ class TicTacToe
    else draw?
      puts "The game is a draw"
    end
-   
+   end
    
     
 
