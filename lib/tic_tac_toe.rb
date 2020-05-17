@@ -101,9 +101,8 @@ class TicTacToe
     
    def winner
      binding.pry
-      won?
-        "X has won the game"
-        "O has won the game"
+      if won?
+        
      end   
   
     
