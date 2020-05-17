@@ -100,7 +100,7 @@ class TicTacToe
     end 
     
    def winner
-      WIN_COMBINATIONS.detect do 
+      won?
         puts "X has won the game"
         puts "O has won the game"
     end
