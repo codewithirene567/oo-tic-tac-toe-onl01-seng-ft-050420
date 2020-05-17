@@ -102,6 +102,7 @@ class TicTacToe
    def winner
      if won?
         @board[won?[1]]
+        "X has won the game"
      end   
    end
    
